@@ -7,44 +7,47 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Movie.create(title: "The Exorcist", overview: "One of the most profitable 
-horror movies ever made, this tale of an exorcism is based loosely on 
-actual events. When young Regan (Linda Blair) starts acting odd -- 
-levitating, speaking in tongues -- her worried mother (Ellen Burstyn) 
-seeks medical help, only to hit a dead end. A local priest 
-(Jason Miller), however, thinks the girl may be seized by the devil. 
-The priest makes a request to perform an exorcism, and the church 
-sends in an expert (Max von Sydow) to help with the difficult job.", 
-director: "William Friedkin", release_date: "December 26, 1973", 
-image_url: "https://m.media-amazon.com/images/M/MV5BYjhmMGMxZDYtMTkyNy00YWVmLTgyYmUtYTU3ZjcwNTBjN2I1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg")
+Movie.create(title: "The Exorcist", overview: "When young Regan (Linda Blair) starts acting odd her worried mother (Ellen Burstyn) seeks medical help, only to hit a dead end. A local priest Jason Miller), however, thinks the girl may be seized by the devil.", director: "William Friedkin", release_date: "December 26, 1973", image_url: "https://m.media-amazon.com/images/M/MV5BYjhmMGMxZDYtMTkyNy00YWVmLTgyYmUtYTU3ZjcwNTBjN2I1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg")
 
-Movie.create(title: "Evil Dead", overview: "Evil Dead is an American 
-supernatural horror film franchise created by Sam Raimi consisting of 
-four feature films and a television series. The series revolves 
-around the Necronomicon Ex-Mortis, an ancient Sumerian text which 
-wreaks havoc upon a group of cabin inhabitants in a wooded area in 
-Tennessee.", director: "Sam Raimi and Fede Alvarez", 
-release_date: "October 15, 1981", image_url: "https://m.media-amazon.com/images/M/MV5BODc2MmVjZmUtNjAzMS00MDNiLWIyM2YtOGEzMjg0YjRhMzRmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg")
+Movie.create(title: "Evil Dead", overview: "Ashley Williams (Bruce Campbell), his girlfriend and three pals hike into the woods to a cabin for a fun night away. They find an old book, the Necronomicon, whose text reawakens the dead when it's read aloud. The friends inadvertently release a flood of evil and must fight for their lives or become one of the evil dead.", director: "Sam Raimi and Fede Alvarez", release_date: "October 15, 1981", image_url: "https://m.media-amazon.com/images/M/MV5BODc2MmVjZmUtNjAzMS00MDNiLWIyM2YtOGEzMjg0YjRhMzRmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg")
 
-Movie.create(title: "Carrie", overview: "In this chilling adaptation 
-of Stephen King's horror novel, withdrawn and sensitive teen 
-Carrie White (Sissy Spacek) faces taunting from classmates at school 
-and abuse from her fanatically pious mother (Piper Laurie) at home. 
-When strange occurrences start happening around Carrie, she begins to 
-suspect that she has supernatural powers. Invited to the prom by the 
-empathetic Tommy Ross (William Katt), Carrie tries to let her guard 
-down, but things eventually take a dark and violent turn.", 
-director: "Brian De Palma", release_date: "November 3, 1973", image_url: "https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg")
+Movie.create(title: "Carrie", overview: "In this adaptation of Stephen King's horror novel, withdrawn and sensitive teen Carrie White (Sissy Spacek) faces taunting from classmates at school and abuse from her fanatically pious mother (Piper Laurie) at home. When strange occurrences start happening around Carrie, she begins to suspect that she has supernatural powers. Invited to the prom by the empathetic Tommy Ross (William Katt), Carrie tries to let her guard down, but things eventually take a dark and violent turn.", director: "Brian De Palma", release_date: "November 3, 1973", image_url: "https://m.media-amazon.com/images/M/MV5BMTlhNmVkZGUtNjdjOC00YWY3LTljZWQtMTY1YWFhNGYwNDQwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg")
 
-Movie.create(title: "The Rocky Horror Picture Show", overview: "In 
-this cult classic, sweethearts Brad (Barry Bostwick) and Janet 
-(Susan Sarandon), stuck with a flat tire during a storm, discover 
-the eerie mansion of Dr. Frank-N-Furter (Tim Curry), a transvestite 
-scientist. As their innocence is lost, Brad and Janet meet a houseful 
-of wild characters, including a rocking biker (Meat Loaf) and a 
-creepy butler (Richard O'Brien). Through elaborate dances and rock 
-songs, Frank-N-Furter unveils his latest creation: a muscular man 
-named Rocky.", director: "Jim Sharman", 
-release_date: "September 26, 1975", image_url: "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_.jpg")
+Movie.create(title: "The Rocky Horror Picture Show", overview: "Sweethearts Brad (Barry Bostwick) and Janet (Susan Sarandon), stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter (Tim Curry), a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters.", director: "Jim Sharman", release_date: "September 26, 1975", image_url: "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_.jpg")
+
+Movie.create(title: "Beetlejuice", overview: "After Barbara (Geena Davis) and Adam Maitland (Alec Baldwin) die in a car accident, they find themselves stuck haunting their country residence, unable to leave the house. When the unbearable Deetzes (Catherine O'Hara, Jeffrey Jones) and teen daughter Lydia (Winona Ryder) buy the home, the Maitlands attempt to scare them away without success. Their efforts attract Beetlejuice (Michael Keaton), a rambunctious spirit whose "help" quickly becomes dangerous for the Maitlands and innocent Lydia.", director: "Tim Burton", release_date: "March 30, 1988", image_url: "https://lh3.googleusercontent.com/proxy/k8Q-cHJqz2iVB8uyYtRBKE2k46S8twkwYMEWcWBCat-bj-Ldip-kKr-mU01oXIutF-ZpzkqwUTlqYGF0e_BIvbqnIizOnnGs4Axu5S-IMWZuCcSgoZRXPIKMn7W7V5V1CW1HaQOSj7EDYiLBFjSyrPdx1A")
+
+Movie.create(title: "Hocus Pocus", overview: "After moving to Salem, Mass., teenager Max Dennison (Omri Katz) explores an abandoned house with his sister Dani (Thora Birch) and their new friend, Allison (Vinessa Shaw). After dismissing a story Allison tells as superstitious, Max accidentally frees a coven of evil witches (Bette Midler, Sarah Jessica Parker, Kathy Najimy) who used to live in the house. Now, with the help of a magical cat, the kids must steal the witches' book of spells to stop them from becoming immortal.", director: "Kenny Ortega", release_date: "July 16, 1993", image_url: "https://lumiere-a.akamaihd.net/v1/images/p_hocuspocus_19880_e000b013.jpeg")
+
+Movie.create(title: "The Witch", overview: "In 1630 New England, panic and despair envelops a farmer, his wife and their children when youngest son Samuel suddenly vanishes. The family blames Thomasin, the oldest daughter who was watching the boy at the time of his disappearance. With suspicion and paranoia mounting, twin siblings Mercy and Jonas suspect Thomasin of witchcraft, testing the clan's faith, loyalty and love to one another.", director: "Robert Eggers", release_date: "October 18, 2015", image_url: "https://images.squarespace-cdn.com/content/v1/5e7a8f6d95bc3643e73bc2e8/1587503902285-GXRSNAIQFT7VBASK7G89/witch.png?format=2500w")
+
+Movie.create(title: "Child's Play", overview: "Gunned down by Detective Mike Norris (Chris Sarandon), dying murderer Charles Lee Ray (Brad Dourif) uses black magic to put his soul inside a doll named Chucky -- which Karen Barclay (Catherine Hicks) then buys for her young son, Andy (Alex Vincent). When Chucky kills Andy's baby sitter, the boy realizes the doll is alive and tries to warn people, but he's institutionalized. Now Karen must convince the detective of the murderous doll's intentions, before Andy becomes Chucky's next victim.", director: "Tom Holland", release_date: "November 9, 1988", image_url: "https://static.rogerebert.com/uploads/movie/movie_poster/childs-play-1988/large_6r9MOdGpOpSTH4jCQemyhPOHbZn.jpg")
+
+Movie.create(title: "The Texas Chainsaw Massacre", overview: "When Sally (Marilyn Burns) hears that her grandfather's grave may have been vandalized, she and her paraplegic brother, Franklin (Paul A. Partain), set out with their friends to investigate. After a detour to their family's old farmhouse, they discover a group of crazed, murderous outcasts living next door. As the group is attacked one by one by the chainsaw-wielding Leatherface (Gunnar Hansen), who wears a mask of human skin, the survivors must do everything they can to escape.", director: "Tobe Hooper", release_date: "October 1, 1974", image_url: "https://m.media-amazon.com/images/I/91ei8JE0SDL._AC_SL1500_.jpg")    
+    
+10 Movie.create(title: "What We Do In The Shadows", overview: "Vampire housemates (Jemaine Clement, Taika Waititi, Jonathan Brugh) try to cope with the complexities of modern life and show a newly turned hipster (Cori Gonzalez-Macuer) some of the perks of being undead.", director: "Taika Waititi and Jemaine Clement", release_date: "February 13, 2015", image_url: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/help-1553637677.jpg?crop=1xw:1xh;center,top&resize=480:*")
+
+Movie.create(title: "Let the Right One In", overview: "When Oskar (Kåre Hedebrant), a sensitive, bullied 12-year-old boy living with his mother in suburban Sweden, meets his new neighbor, the mysterious and moody Eli (Lina Leandersson), they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl. Eventually, Eli shares her dark, macabre secret with Oskar, revealing her connection to a string of bloody local murders.", director: "Tomas Alfredson", release_date: "October 24, 2008", image_url: "https://i.pinimg.com/originals/75/bd/69/75bd69436cc6ad829e329ed1bd693294.jpg")
+
+Movie.create(title: "Ernest Scared Stupid", overview: "Ernest P. Worrell (Jim Varney) is working as a garbage collector in a small Missouri town. Despite the warnings of superstitious local Old Lady Hackmore (Eartha Kitt), he accidentally unleashes devious troll Trantor (Jonas Moscartolo), a slimy creature confined under a tree for 200 years. Trantor changes some kids into wooden dolls and turns Ernest's dog, Rimshot, into a log. Ernest then teams up with Old Lady Hackmore to get rid of the beast and bring the victims back to life.", director: "John R. Cherry ", release_date: "October 11, 1991", image_url: "https://m.media-amazon.com/images/M/MV5BZDA4MzIxY2EtYzQxMy00MmJkLWI1ODktNzFjMDM0Yzg4YjhlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg")
+
+Movie.create(title: "Halloween", overview: "On a cold Halloween night in 1963, six year old Michael Myers brutally murdered his 17-year-old sister, Judith. He was sentenced and locked away for 15 years. But on October 30, 1978, while being transferred for a court date, a 21-year-old Michael Myers steals a car and escapes Smith's Grove. He returns to his quiet hometown of Haddonfield, Illinois, where he looks for his next victims.", director: "John Carpenter", release_date: "October 25, 1978", image_url: "https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg")
+
+Movie.create(title: "28 Days Later", overview: "A group of misguided animal rights activists free a caged chimp infected with the "Rage" virus from a medical research lab. When London bike courier Jim (Cillian Murphy) wakes up from a coma a month after, he finds his city all but deserted. On the run from the zombie-like victims of the Rage, Jim stumbles upon a group of survivors, including Selena (Naomie Harris) and cab driver Frank (Brendan Gleeson), and joins them on a perilous journey to what he hopes will be safety.", director: "A group of misguided animal rights activists free a caged chimp infected with the "Rage" virus from a medical research lab. When London bike courier Jim (Cillian Murphy) wakes up from a coma a month after, he finds his city all but deserted. On the run from the zombie-like victims of the Rage, Jim stumbles upon a group of survivors, including Selena (Naomie Harris) and cab driver Frank (Brendan Gleeson), and joins them on a perilous journey to what he hopes will be safety.", release_date: "June 27, 2003", image_url: "https://m.media-amazon.com/images/M/MV5BYTFkM2ViMmQtZmI5NS00MjQ2LWEyN2EtMTI1ZmNlZDU3MTZjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg")
+
+Movie.create(title: "Dracula", overview: "Count Dracula, a 15th-century prince, is condemned to live off the blood of the living for eternity. Young lawyer Jonathan Harker is sent to Dracula's castle to finalise a land deal, but when the Count sees a photo of Harker's fiancée, Mina, the spitting image of his dead wife, he imprisons him and sets off for London to track her down.", director: "Francis Ford Coppola", release_date: "November 13, 1992", image_url: "https://m.media-amazon.com/images/M/MV5BNjcyMDZlMTktYTIxOC00ZWFhLWJkYzgtNWNiYjAwYTFkNjIyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg")
+
+Movie.create(title: "Night Of the Living Dead", overview: "A disparate group of individuals takes refuge in an abandoned house when corpses begin to leave the graveyard in search of fresh human bodies to devour. The pragmatic Ben (Duane Jones) does his best to control the situation, but when the reanimated bodies surround the house, the other survivors begin to panic. As any semblance of order within the group begins to dissipate, the zombies start to find ways inside -- and one by one, the living humans become the prey of the deceased ones.", director: "George A. Romero", release_date: "October 1, 1968", image_url: "https://m.media-amazon.com/images/I/61jkl3ML6DS._AC_SY741_.jpg")
+
+Movie.create(title: "Nightmare Before Christmas", overview: "The film follows the misadventures of Jack Skellington, Halloweentown's beloved pumpkin king, who has become bored with the same annual routine of frightening people in the "real world." When Jack accidentally stumbles on Christmastown, all bright colors and warm spirits, he gets a new lease on life -- he plots to bring Christmas under his control by kidnapping Santa Claus and taking over the role. But Jack soon discovers even the best-laid plans of mice and skeleton men can go seriously awry.", director: "Henry Selick", release_date: "October 13, 1993", image_url: "http://cdn.shopify.com/s/files/1/0630/8509/products/pst1360_Nightmare_Before_Christmas_grande.jpg?v=1621877686")
+
+Movie.create(title: "Invasion Of the Body Snatchers", overview: "This remake of the classic horror film is set in San Francisco. Matthew Bennell (Donald Sutherland) assumes that when a friend (Brooke Adams) complains of her husband's strange mood, it's a marital issue. However, he begins to worry as more people report similar observations. His concern is confirmed when writer Jack Bellicec (Jeff Goldblum) and his wife (Veronica Cartwright) discover a mutated corpse. Besieged by an invisible enemy, Bennell must work quickly before the city is consumed.", director: "Philip Kaufman", release_date: "December 22, 1978", image_url: "https://m.media-amazon.com/images/M/MV5BMTkzY2Y3ZTMtYTg4Yy00OTNjLTlkNjctMGVlZDMwZWIxMzA0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg")
+
+Movie.create(title: "A Nightmare on Elm Street", overview: "In Wes Craven's classic slasher film, several Midwestern teenagers fall prey to Freddy Krueger (Robert Englund), a disfigured midnight mangler who preys on the teenagers in their dreams -- which, in turn, kills them in reality. After investigating the phenomenon, Nancy (Heather Langenkamp) begins to suspect that a dark secret kept by her and her friends' parents may be the key to unraveling the mystery, but can Nancy and her boyfriend Glen (Johnny Depp) solve the puzzle before it's too late?", director: "Wes Craven", release_date: "November 16, 1984", image_url: "https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg")
+
+20 Movie.create(title: "Elvira: Mistress of the Dark", overview: "The horror-movie hostess turns a puritanical community on its ear when she arrives in town to claim her inheritance.", director: "James Signorelli", release_date: "September 30, 1988", image_url: "https://m.media-amazon.com/images/M/MV5BMzFlZGU5ZjQtNTE4Zi00OGNmLTk0MzQtZjBhYzk5OWEyY2Q4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg")
+
 
 puts "Seeded!"
+
+#Movie.create(title: "", overview: "", director: "", release_date: "", image_url: "")
