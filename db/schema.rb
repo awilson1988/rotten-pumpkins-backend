@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_15_214937) do
+ActiveRecord::Schema.define(version: 2021_09_16_211157) do
 
   create_table "movies", force: :cascade do |t|
     t.string "title"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2021_09_15_214937) do
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id", null: false
+    t.index ["user_id"], name: "index_movies_on_user_id"
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -37,5 +39,6 @@ ActiveRecord::Schema.define(version: 2021_09_15_214937) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "movies", "users"
   add_foreign_key "reviews", "movies"
 end
