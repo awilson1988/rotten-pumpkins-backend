@@ -1,5 +1,7 @@
 # README
 
+This is the Backend for the Rotten Pumpkins project. Which can be  found at github.com/awilson1988/rotten-pumpkins-frontend.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
