@@ -1,3 +1,7 @@
 class UserSerializer < ActiveModel::Serializer 
-    attributes :id, :username
+    attributes :id, :username, :favorites
+
+    def favorites 
+        self.object.favorites
+      end 
 end
